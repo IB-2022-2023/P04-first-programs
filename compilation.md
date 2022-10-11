@@ -83,6 +83,45 @@ Puede Ud. tomar del mismo (o de otros) aquellas opciones que le parezcan interes
 que comience con uno simple, como el que se ha propuesto, y que no introduzca en él una opción salvo que
 entienda bien la finalidad de la misma.
 
+### Comentarios de cabecera
+Una buena práctica en el ámbito de la documentación del código consiste en incluir un bloque de comentarios al comienzo
+de todos los ficheros de un proyecto de programación.
+El siguiente es un ejemplo de comentario de bloque que debería incluirse al comienzo de todos los ficheros
+(`*.cc`, `*.h`) de sus proyectos de programación en el ámbito de esta asignatura:
+
+```
+/**
+  * Universidad de La Laguna
+  * Escuela Superior de Ingeniería y Tecnología
+  * Grado en Ingeniería Informática
+  * Informática Básica 2022-2023
+  *
+  * @file integer_division_and_reminder.cc
+  * @author Albert Einstein aeinstein@ull.edu.es
+  * @date Oct 12 2022
+  * @brief The program reads two natural numbers a and b, with b > 0, and prints 
+  *        the integer division d and the remainder r of a divided by b.
+  *        By definition, d and r must be the only integer numbers such that 0=<r<b and db+r=a.
+  * @bug There are no known bugs
+  * @see https://jutge.org/problems/P48107
+  */
+```
+
+Todo fichero debiera contener (etiqueta `@brief`) una breve descripción del contenido del fichero.
+Si fuera necesario se incluirá a continuación una descripción más detallada.
+Obviamente el comentario específico así como el nombre del fichero debieran particularizarse para cada caso
+concreto.
+
+Incluya siempre un bloque de comentarios similar al anterior en todos sus ficheros.
+Preste cuidado a la práctica habitual de "copiar y pegar" estos comentarios de un proyecto a otro, puesto que parte de la
+información cambiará.
+
+En proyectos de desarrollo de software de cierta entidad es común que este bloque de comentarios de cabecera de los ficheros
+incluya además la licencia de software bajo la que se publica el programa en cuestión.
+A título de ejemplo, 
+[consulte el texto](https://www.gnu.org/licenses/gpl-3.0.html)
+que se debiera incluir en los ficheros para publicarlos bajo licencia GPLv3.
+
 ### La plataforma Jutge
 [Jutge](https://jutge.org/) 
 es una plataforma que ha sido desarrollada en la
