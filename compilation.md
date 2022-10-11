@@ -30,21 +30,22 @@ Cualquier tipo de opción, macro, comando o función que vim entienda puede ser 
 en el directorio `$HOME` del usuario de modo que se aplique como opción por defecto cuando se lance Vim. 
 Pruebe a crear un fichero `.vimrc` (por defecto normalmente no existirá) en el directorio HOME de su máquina
 virtual, que contenga lo siguiente:
-```
+``` .bash
 set nocompatible
 set number
 set ruler
 syntax on
 ```
-Esto hará que siempre que edite un fichero, aparezca numeración de líneas (set number), 
-un indicador de fila y columna en la barra de estado (set ruler) y resaltado de sintaxis 
+
+Esto hará que siempre que edite un fichero, aparezca numeración de líneas (`set number`), 
+un indicador de fila y columna en la barra de estado (`set ruler`) y resaltado de sintaxis 
 (si está definida para el tipo de fichero que esté editando) activado. 
-Es algo así como el fichero de opciones de vim para nuestro usuario (y sólo para nuestro usuario). 
+Es algo así como el fichero de opciones de vim para nuestro usuario.
 
 Así, se puede utilizar este fichero de configuración de vim para indicar aquellas configuraciones con las que estemos más cómodos, 
 de forma que se adapte vim a nuestras necesidades. 
 Para comenzar se recomienda un fichero `.vimrc` con el siguiente contenido:
-```
+``` .bash
 " Fichero .vimrc de mi usuario
 " Los comentarios en este fichero se ponen con comillas dobles
 
@@ -75,7 +76,12 @@ autocmd BufReadPost *
      \   exe "normal! g`\"" |
      \ endif
 ```
-
+Es fácil hallar en internet ejemplos de ficheros `.vimrc` escritos por usuarios expertos.
+[Este](https://gist.github.com/simonista/8703722)
+por ejemplo podría ser uno de esos ficheros.
+Puede Ud. tomar del mismo (o de otros) aquellas opciones que le parezcan interesantes pero la recomendación es
+que comience con uno simple, como el que se ha propuesto, y que no introduzca en él una opción salvo que
+entienda bien la finalidad de la misma.
 
 ### La plataforma Jutge
 [Jutge](https://jutge.org/) 
