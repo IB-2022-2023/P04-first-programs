@@ -122,6 +122,26 @@ A título de ejemplo,
 [consulte el texto](https://www.gnu.org/licenses/gpl-3.0.html)
 que se debiera incluir en los ficheros para publicarlos bajo licencia GPLv3.
 
+### Primeros programas
+Además de estudiar todo el material expuesto en clases de teoría hasta la actualidad, estudie detenidamente
+los contenidos del tema
+[Primeros Programas](http://www.minidosis.org/#/temas/Cpp.PrimerosProgramas)
+del tutorial MiniDosis.
+En ese tema hallará vídeos y textos explicativos, ejercicios en los que tendrá que copiar programas,
+escribirlos usando vim, compilarlos y ejecutarlos. También hallará ejercicios para evaluar los conocimientos
+adquiridos.
+Tenga en cuenta que en ese tutorial se utiliza CodeBlocks mientras que en *Informática Básica* se utiliza vim
+para escribir programas.
+Cree un directorio con nombre `primeros_programas` en el directorio de trabajo de esta práctica y escriba el
+mismo todos los programas que se le propone en el tema de estudio.
+En el tutorial para los ficheros con código C++ se utiliza la extensión `.cpp`, mientras que en *Informática
+Básica*, siguiendo la 
+[Guía de Estilo de Google para C++](https://google.github.io/styleguide/cppguide.html#File_Names)
+se utilizará la extensión `.cc`.
+
+Tome nota de todas las dudas que le surjan al estudiar este material, para estudiarlas con el profesorado en
+las sesiones de Problemas de *Informática Básica*.
+
 ### La plataforma Jutge
 [Jutge](https://jutge.org/) 
 es una plataforma que ha sido desarrollada en la
@@ -140,7 +160,7 @@ esos tests públicos (ofrece los resultados esperados) antes de enviar el progra
 
 Para la realización de futuras prácticas de la asignatura deberá Ud. registrarse en la plataform Jutge. 
 Recibirá para ello un mensaje de correo con asunto similar a: "Jutge.org - You have been invited to a course". 
-Acepte esa invitación y regístrese en el curso "Informática Básica" en la plataforma Jutge usando para ello su
+Acepte esa invitación y regístrese en el curso *Informática Básica* en la plataforma Jutge usando para ello su
 cuenta de correo electrónico institucional.
 Es importante que se registre en Jutge con esa cuenta y no otra.
 
