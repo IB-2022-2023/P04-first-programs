@@ -130,14 +130,16 @@ del tutorial MiniDosis.
 En ese tema hallará vídeos y textos explicativos, ejercicios en los que tendrá que copiar programas,
 escribirlos usando vim, compilarlos y ejecutarlos. También hallará ejercicios para evaluar los conocimientos
 adquiridos.
+
 Tenga en cuenta que en ese tutorial se utiliza CodeBlocks mientras que en *Informática Básica* se utiliza vim
 para escribir programas.
-Cree un directorio con nombre `primeros_programas` en el directorio de trabajo de esta práctica y escriba el
-mismo todos los programas que se le propone en el tema de estudio.
+
+Cree un subdirectorio con nombre `primeros_programas` en el directorio de trabajo de esta práctica y escriba en el
+mismo todos los programas que se le propone en el tema.
 En el tutorial para los ficheros con código C++ se utiliza la extensión `.cpp`, mientras que en *Informática
 Básica*, siguiendo la 
 [Guía de Estilo de Google para C++](https://google.github.io/styleguide/cppguide.html#File_Names)
-se utilizará la extensión `.cc`.
+se utilizará la extensión `.cc`
 
 Tome nota de todas las dudas que le surjan al estudiar este material, para estudiarlas con el profesorado en
 las sesiones de Problemas de *Informática Básica*.
