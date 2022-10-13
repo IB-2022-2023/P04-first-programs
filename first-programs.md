@@ -25,11 +25,11 @@ que pudieran ser necesarios para el trabajo propuesto.
 
 El repositorio correspondiente a esta práctica está accesible a través de
 [este enlace](https://github.com/IB-2022-2023/P04-first-programs)
-de modo que la primera tarea a desarrollar es clonar (copiar) ese repositorio en un directorio adecuado de la
+de modo que la primera tarea a desarrollar es clonar (copiar) ese repositorio en un directorio adecuado de su
 máquina virtual de la asignatura.
 La dirección que ha de usar para clonar el directorio la puede hallar en la pestaña *Code* de la página
 anterior, seleccionando la opción *SSH* en el desplegable que se abre en esa opción.
-Así pues, el comando para clonar el repositorio es
+Así pues, el comando para clonar el repositorio de esta práctica es
 ``` .bash
 git clone git@github.com:IB-2022-2023/P04-first-programs.git <directorio en mi máquina virtual>
 ```
