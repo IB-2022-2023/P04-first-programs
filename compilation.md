@@ -1,4 +1,4 @@
-# Práctica 04. Compilación de programas
+# Práctica 04. Primeros programas
 
 # Factor de ponderación: 5
 
