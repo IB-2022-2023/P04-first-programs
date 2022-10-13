@@ -18,6 +18,31 @@ Se señalan a continuación los aspectos más relevantes (la lista no es exhaust
 * Ha de demostrar que es capaz de ejecutar comandos Linux en su VM
 * Ha de acreditarse que se es capaz de conectarse a su máquina virtual (VM) de la asignatura 
 
+### Repositorio GitHub correspondiente a esta práctica
+Para cada una de las prácticas de *Informática Básica* el profesorado de la asignatura creará un repositorio
+público en GitHub que contendrá, además del enunciado de la práctica que se propone realizar, algunos ficheros
+que pudieran ser necesarios para el trabajo propuesto.
+
+El repositorio correspondiente a esta práctica está accesible a través de
+[este enlace](https://github.com/IB-2022-2023/P04-first-programs)
+de modo que la primera tarea a desarrollar es clonar (copiar) ese repositorio en un directorio adecuado de la
+máquina virtual de la asignatura.
+La dirección que ha de usar para clonar el directorio la puede hallar en la pestaña *Code* de la página
+anterior, seleccionando la opción *SSH* en el desplegable que se abre en esa opción.
+Así pues, el comando para clonar el repositorio es
+``` .bash
+git clone git@github.com:IB-2022-2023/P04-first-programs.git <directorio en mi máquina virtual>
+```
+Comience su trabajo en esta práctica clonando el repositorio anterior.
+
+En el futuro se utilizará GitHub Classroom (una plataforma relacionada con GitHub) para gestionar las
+prácticas de *Informática Básica*.
+En esa plataforma, para la realización de cada práctica recibirá una invitación a una tarea que tendrá que
+aceptar.
+Una vez acepte la invitación tendrá que clonar un repositorio asociado a la tarea.
+Ese repositorio privado será el punto de partida y tendrá Ud. que añadir en él directorios con los programas
+que realice.
+
 ### El fichero `.vimrc`
 En vim se pueden modificar muchos parámetros del editor mientras se editan los ficheros. 
 Por ejemplo, tecleando en modo comando `:set number` vim activará la numeración de líneas, algo que puede ser útil para programar.
@@ -169,6 +194,8 @@ Es importante que se registre en Jutge con esa cuenta y no otra.
 [Este documento](https://docs.google.com/presentation/d/1k53XMnI6Z9DTlBHRJ0cBqix0KZyVIFUgD61XAcsgA9Y/edit?usp=sharing)
 contiene información algo más detallada sobre el uso de la plataforma Jutge. 
 Estúdielo para preparse a usar Jutge en el futuro.
+
+Compile el programa `squares.cc` que hallará en el diretorio d
 
 
 
