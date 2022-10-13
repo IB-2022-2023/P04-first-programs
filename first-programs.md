@@ -195,14 +195,27 @@ Es importante que se registre en Jutge con esa cuenta y no otra.
 contiene información algo más detallada sobre el uso de la plataforma Jutge. 
 Estúdielo para preparse a usar Jutge en el futuro.
 
-Compile el programa `squares.cc` que hallará en el diretorio d
+Compile el programa `squares.cc` que hallará en el subdiretorio `jutge` de esta práctica.
+Ejecute el programa resultante de la compilación introduciendo los datos de entrada a través del teclado.
+Aprenda a conseguir que el programa tome la entrada de datos desde un fichero de texto, de modo que pueda
+ejecutar el programa como:
+``` .bash
+$ ./squares < fichero_entrada.txt
+``` 
+Consiga igualmente que su programa tome la entrada desde un fichero y escriba la salida en otro:
+``` .bash
+$ ./squares < entrada.txt > salida.txt
+``` 
 
-
+El programa `dni.cc` que hallará en el subdirectorio `jutge` de la práctica soluciona el problema
+[P24216](https://jutge.org/problems/P24216_es) de Jutge.
+Modifique convenientemente el programa para que escriba la solución que Jutge espera y
+[suba su solución](https://jutge.org/problems/P24216_es/submissions)
+a la plataforma para su evaluación.
 
 ### Comandos Linux útiles a la hora de procesar ficheros de texto
-Por último, estudie también aquellos comandos de linux que tienen relación con la gestión de ficheros.
-En particular estudie (con sus páginas de manual) y practique los comandos 
-[file](https://ss64.com/bash/file.html),
-[grep](https://ss64.com/bash/grep.html),
-[wc](https://ss64.com/bash/wc.html) y
-[find](https://ss64.com/bash/find.html)
+Por último, aprenda a utilizar el comando
+[diff](https://ss64.com/bash/diff.html).
+Los ejemplos y explicaciones de 
+[este tutorial](https://www.computerhope.com/unix/udiff.htm) 
+pueden resultarle útiles para conocer `diff`
