@@ -11,9 +11,6 @@ Los objetivos de esta práctica son que el alumnado:
 Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva) que se tendrán en cuenta a la hora de evaluar esta práctica:
 * Ha de demostrar que conoce el proceso de compilación de programas usando el de C++ de GNU
 * Ha de acreditar que dispone de una cuenta de usuario en la plataforma Jutge
-
-* AÑADIR
-
 * Ha de acreditar que es capaz de editar ficheros remotos en su VM usando vi
 * Ha de demostrar que es capaz de ejecutar comandos Linux en su VM
 * Ha de acreditarse que se es capaz de conectarse a su máquina virtual (VM) de la asignatura 
@@ -53,7 +50,7 @@ las cadenas de otro, etc (algo realmente útil a la hora de programar).
 
 Cualquier tipo de opción, macro, comando o función que vim entienda puede ser incluída en el fichero `.vimrc` 
 en el directorio `$HOME` del usuario de modo que se aplique como opción por defecto cuando se lance Vim. 
-Pruebe a crear un fichero `.vimrc` (por defecto normalmente no existirá) en el directorio HOME de su máquina
+Pruebe a crear un fichero `.vimrc` (por defecto normalmente no existirá) en el directorio `$HOME` de su máquina
 virtual, que contenga lo siguiente:
 ``` .bash
 set nocompatible
