@@ -120,7 +120,8 @@ Estudie en la
 *[Guía de Estilo de Google para C++](https://google.github.io/styleguide/cppguide.html)*
 el apartado dedicado a los comentarios
 ([Comments](https://google.github.io/styleguide/cppguide.html#Comments)).
-Una buena práctica en el ámbito de la documentación del código consiste en incluir un bloque de comentarios al comienzo
+
+Tal como en esa guía se indica, una buena práctica consiste en incluir un bloque de comentarios al comienzo
 de todos los ficheros de un proyecto de programación.
 El siguiente es un ejemplo de comentario de bloque que debería incluirse al comienzo de todos los ficheros
 (`*.cc`, `*.h`) de sus proyectos de programación en el ámbito de esta asignatura:
@@ -210,11 +211,11 @@ Compile el programa `squares.cc` que hallará en el subdiretorio `jutge` de esta
 Ejecute el programa resultante de la compilación introduciendo los datos de entrada a través del teclado.
 Aprenda a conseguir que el programa tome la entrada de datos desde un fichero de texto, de modo que pueda
 ejecutar el programa como:
-``` .bash
+``` 
 $ ./squares < fichero_entrada.txt
 ``` 
 Consiga igualmente que su programa tome la entrada desde un fichero y escriba la salida en otro:
-``` .bash
+``` 
 $ ./squares < entrada.txt > salida.txt
 ``` 
 
