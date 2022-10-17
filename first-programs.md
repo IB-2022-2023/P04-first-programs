@@ -37,7 +37,7 @@ máquina virtual de la asignatura.
 La dirección que ha de usar para clonar el directorio la puede hallar en la pestaña *Code* de la página
 anterior, seleccionando la opción *SSH* en el desplegable que se abre en esa opción.
 Así pues, el comando para clonar el repositorio de esta práctica es
-``` .bash
+``` 
 git clone git@github.com:IB-2022-2023/P04-first-programs.git <directorio en mi máquina virtual>
 ```
 Comience su trabajo en esta práctica clonando el repositorio anterior.
