@@ -77,7 +77,7 @@ Es algo así como el fichero de opciones de vim para nuestro usuario.
 Así, se puede utilizar este fichero de configuración de vim para indicar aquellas configuraciones con las que estemos más cómodos, 
 de forma que se adapte vim a nuestras necesidades. 
 Para comenzar se recomienda un fichero `.vimrc` con el siguiente contenido:
-``` .bash
+``` 
 " Fichero .vimrc de mi usuario
 " Los comentarios en este fichero se ponen con comillas dobles
 
