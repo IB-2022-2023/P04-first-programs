@@ -4,16 +4,21 @@
 
 ### Objetivos
 Los objetivos de esta práctica son que el alumnado:
+* Conozca algunos detalles del proceso de compilación en C++
+* Escriba sus primeros programas simples en C++
+* Sepa cómo crear un fichero de configuración para vim en su máquina virtual
+* Entienda la finalidad de los comentarios en sus programas, y en particular los comentarios de cabecera de
+  los ficheros
 * Cree una cuenta en la plataforma Jutge y conozca el funcionamiento básico de la misma
-* Conozca algunos detalles del proceso de compilación de programas simples escritos en C++
 
 ### Rúbrica de evaluacion de esta práctica
 Se señalan a continuación los aspectos más relevantes (la lista no es exhaustiva) que se tendrán en cuenta a la hora de evaluar esta práctica:
 * Ha de demostrar que conoce el proceso de compilación de programas usando el de C++ de GNU
-* Ha de acreditar que dispone de una cuenta de usuario en la plataforma Jutge
-
-* AÑADIR
-
+* Ha de demostrar su capacidad para establecer un fichero de configuración de vim para sus tareas de edición
+  en la asignatura
+* Ha de acreditar que dispone de una cuenta de usuario en la plataforma Jutge y que conoce los fundamentos de
+  trabajo en esa plataforma
+* Todos los ficheros (`*.cc`, `*.h`) de sus prácticas incluyen un comentario de cabecera
 * Ha de acreditar que es capaz de editar ficheros remotos en su VM usando vi
 * Ha de demostrar que es capaz de ejecutar comandos Linux en su VM
 * Ha de acreditarse que se es capaz de conectarse a su máquina virtual (VM) de la asignatura 
@@ -109,6 +114,10 @@ que comience con uno simple, como el que se ha propuesto, y que no introduzca en
 entienda bien la finalidad de la misma.
 
 ### Comentarios de cabecera
+Estudie en la
+[*Guía de Estilo de Google para C++*](https://google.github.io/styleguide/cppguide.html#Comments)
+el apartado dedicado a los comentarios
+([Comments])(https://google.github.io/styleguide/cppguide.html#Comments).
 Una buena práctica en el ámbito de la documentación del código consiste en incluir un bloque de comentarios al comienzo
 de todos los ficheros de un proyecto de programación.
 El siguiente es un ejemplo de comentario de bloque que debería incluirse al comienzo de todos los ficheros
