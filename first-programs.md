@@ -6,6 +6,8 @@
 Los objetivos de esta práctica son que el alumnado:
 * Conozca algunos detalles del proceso de compilación en C++
 * Escriba sus primeros programas simples en C++
+* Conozca algunos tipos de datos simples, así como la forma de declarar variables de esos tipos y operar con
+  esas variables
 * Sepa cómo crear un fichero de configuración para vim en su máquina virtual
 * Entienda la finalidad de los comentarios en sus programas, y en particular los comentarios de cabecera de
   los ficheros
