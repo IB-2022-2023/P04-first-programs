@@ -219,10 +219,10 @@ Consiga igualmente que su programa tome la entrada desde un fichero y escriba la
 $ ./squares < entrada.txt > salida.txt
 ``` 
 
-El programa `dni.cc` que hallará en el subdirectorio `jutge` de la práctica soluciona el problema
-[P24216](https://jutge.org/problems/P24216_es) de Jutge.
+El programa `hello_world.cc` que hallará en el subdirectorio `jutge` de la práctica soluciona el problema
+[P68688](https://jutge.org/problems/P68688_en) de Jutge.
 Modifique convenientemente el programa para que escriba la solución que Jutge espera y
-[suba su solución](https://jutge.org/problems/P24216_es/submissions)
+[suba su solución](https://jutge.org/problems/P68688_en/submissions)
 a la plataforma para su evaluación.
 
 ### Comandos Linux útiles a la hora de procesar ficheros de texto
@@ -230,4 +230,4 @@ Por último, aprenda a utilizar el comando
 [diff](https://ss64.com/bash/diff.html).
 Los ejemplos y explicaciones de 
 [este tutorial](https://www.computerhope.com/unix/udiff.htm) 
-pueden resultarle útiles para conocer `diff`
+pueden resultarle útiles para conocer `diff`.
